@@ -7,7 +7,6 @@ if(err!= "") {
   process.exit(1)
 }
 var output = (spawn.stdout+"").trim()
-console.log(output)
 if(!/[\d+]/.test(output)) {
   logger.fail("Invalid timestamp created, "+output)
   process.exit(1)
