@@ -1,0 +1,31 @@
+{
+  "name": "timestamp-cli",
+  "version": "0.0.1",
+  "description": "Get current timestamp from cli",
+  "main": "cli.js",
+  "scripts": {
+    "start": "./cli.js",
+    "test": "node test.js"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "timestamp": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/timestamp-cli.git"
+  },
+  "keywords": [
+    "timestamp",
+    "now"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/timestamp-cli/issues"
+  },
+  "homepage": "https://github.com/Urucas/timestamp-cli#readme",
+  "devDependencies": {
+    "semafor": "0.0.1"
+  }
+}
